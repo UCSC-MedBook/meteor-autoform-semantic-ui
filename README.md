@@ -24,7 +24,7 @@ Semantic-ui template for `aldeed:autoform` package.
 In your Meteor app directory:
 
 ```
-$ meteor add aldeed:autoform fabienb4:autoform-semantic-ui
+$ meteor add aldeed:autoform medbook:autoform-semantic-ui
 ```
 
 ## Usage

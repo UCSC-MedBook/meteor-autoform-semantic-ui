@@ -1,6 +1,6 @@
-# fabienb4:autoform-semantic-ui
+# medbook:autoform-semantic-ui
 
-> **I am looking for someone to take over this package, if you are interested in maintaining it, please send me an email.**
+> **`fabienb4:autoform-semantic-ui` maintained by the MedBook team**
 
 Semantic-ui template for `aldeed:autoform` package.
 
@@ -261,7 +261,3 @@ MIT
 ## Contributing
 
 Anyone is welcome to contribute. Fork, make your changes (test them!), and then submit a pull request.
-
-Bitcoin: `34o6GtZPvVXparT46Zw2kfdxex2SWRpkGS`
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/fabienb4/)

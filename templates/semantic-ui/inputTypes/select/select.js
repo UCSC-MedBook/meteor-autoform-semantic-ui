@@ -124,12 +124,14 @@ Template.afSelect_semanticUI.onRendered(function() {
 		useLabels             : this.data.atts.useLabels === false ? false : true
 	}, this.data.atts.settings));
 
+	let lastValue;
   this.autorun((c) => {
     let data = Template.currentData();
 
-    if (data.value) {
-			node.dropdown("set selected", data.value);
-      c.stop();
+    if (data.value && lastValue !== data.value) {
+			node.dropdown("set exactly", data.value);
+
+			lastValue = data.value;
     }
   });
 });

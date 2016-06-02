@@ -124,6 +124,7 @@ Template.afSelect_semanticUI.onRendered(function() {
 		useLabels             : this.data.atts.useLabels === false ? false : true
 	}, this.data.atts.settings));
 
+	// keep track of lastValue to reduce reruns
 	let lastValue;
   this.autorun((c) => {
     let data = Template.currentData();
